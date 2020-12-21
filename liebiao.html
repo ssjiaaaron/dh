@@ -1,0 +1,98 @@
+﻿
+<!doctype html>
+<html>
+    <head>
+		
+	<title>jQuery分页动画效果 - 站长素材</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<!-- font awesome -->
+		<link href="css/font-awesome.css" rel="stylesheet" />
+		
+		<!-- css -->
+		<link rel="stylesheet" href="css/styles.css" />
+        <link href="img/common/favicon.png" rel="shortcut icon" />
+		<!--[if lt IE 8]>
+		<link rel="stylesheet" href="css/styles.ie7.css" />
+		<![endif]-->
+		
+		<link rel="stylesheet" href="css/vendor/github.min.css" />
+		<link href="css/jpage.css" rel="stylesheet" type="text/css" />		
+		
+		<!-- js -->		
+        <script src="js/vendor/jquery-1.10.0.min.js"></script>	
+		<!--script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.2.js"></script-->		
+		
+		<!--[if gt IE 8]> --&gt;
+		<script src="js/vendor/highlight.min.js"></script>		
+		<script>
+			hljs.tabReplace = '&nbsp;&nbsp;&nbsp;';
+			hljs.initHighlightingOnLoad();
+		</script>
+		<!-- <![endif]-->
+				
+		<!-- jpage -->
+		<script src="js/jpage.min.js"></script>
+		
+			
+			<script>
+			$('document').ready(function(){
+				$('#jpage').jpage({
+					effect: 'random' //'', 'crossfade', 'bricks', 'slideLeft', 'slideRight', 'random'
+				});
+			});
+			</script>
+    </head>
+    <body>
+<br>
+		<!-- main content -->
+		<div id="main-content" class="box">
+			<div class="center">
+				<div id="page-content" class="box">
+				<!-- jPage DEMO -->
+				<div id="jpage" class="jpage box">
+					
+
+					
+					<div class="list box text-shadow" data-type="content">						
+						
+<!--文章001开始-->			
+<!-- item 1 -->
+<div class="list-item box">					
+<!-- img -->
+<div class="img left">
+<img src="img/thumbs/arch-2.jpg" alt="" title=""/>
+</div>
+<!-- data -->
+<div class="block right">
+<p class="date">2020/12/15</p>
+<p class="title"><a href="wz/wenzhang001.html">自行车都智能化了，你可知道它的历史？</a></p>
+<p class="desc">
+在不少旁观者的眼里，智能化几乎成了一种避之唯恐不及的“瘟疫”，开始攀附上大大小小、各式各样的工具和设备，从水杯、灯泡、体重秤这样的小物件，再到冰箱、洗衣机这些生活中的庞然大物。
+兜兜转转之后，这场“瘟疫”又找上了在生活中不那么起眼的自行车。然而，在搭上智能化的顺风车之前，你可知道自行车的历史？虽然，在乐视超级自行车的发布会上，它已经用了自行车史上有着重要地位的三个名字......
+</p>
+</div>
+</div>
+
+<!--文章001结束-->
+
+
+
+
+							
+					</div>
+
+
+					<!-- pagination panel -->
+					<div class="box jpage-panel" data-type="panel"></div>
+
+				</div>
+				<!-- end of jPage DEMO -->
+				</div>
+			</div>
+		</div>	
+
+
+    </body>
+</html>
