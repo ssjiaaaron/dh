@@ -47,6 +47,24 @@ class Musics {
                 title: 'Wild Child - Enya',
                 songUrl: './songs/Wild Child - Enya.mp3',
                 imageUrl: './images/songs/c.jpg'
+            },
+            {
+                id: 5,
+                title: 'We Wish You a Merry Christmas - Enya',
+                songUrl: 'http://m10.music.126.net/20210116142615/4cc59f8295a7b9bfed0fd0b34baaeb5e/ymusic/4d31/e9c2/1421/a9ab3233638308e8c7d31266b9bb789a.mp3',
+                imageUrl: './images/songs/c.jpg'
+            },
+            {
+                id: 6,
+                title: 'Cinematic Adventure',
+                songUrl: './songs/Cinematic Adventure.mp3',
+                imageUrl: './images/songs/c.jpg'
+            },
+            {
+                id: 7,
+                title: 'One By One - Enya',
+                songUrl: 'https://sharefs.yun.kugou.com/202101191257/06f96d64123091fb4612f614341c78c9/G055/M0A/09/19/14YBAFaP7J2AOdUjABUNoNh7FC4906.mp3',
+                imageUrl: './images/songs/c.jpg'
             }
         ]
     }
